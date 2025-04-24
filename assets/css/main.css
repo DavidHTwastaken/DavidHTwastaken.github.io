@@ -2138,6 +2138,10 @@ ul.contact li {
   margin: 2.5em 0 0 0;
   padding: 0 0 0 3.25em;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2.5em;
 }
 ul.contact li:before {
   -moz-osx-font-smoothing: grayscale;
